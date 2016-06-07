@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10ADAF391D0671BE0028C968 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ADAF381D0671BE0028C968 /* main.m */; };
+		10ADAF3C1D0671BE0028C968 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ADAF3B1D0671BE0028C968 /* AppDelegate.m */; };
+		10ADAF3F1D0671BE0028C968 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ADAF3E1D0671BE0028C968 /* ViewController.m */; };
+		10ADAF421D0671BE0028C968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ADAF401D0671BE0028C968 /* Main.storyboard */; };
+		10ADAF441D0671BE0028C968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10ADAF431D0671BE0028C968 /* Assets.xcassets */; };
+		10ADAF471D0671BE0028C968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ADAF451D0671BE0028C968 /* LaunchScreen.storyboard */; };
+		10ADAF521D0671BE0028C968 /* HorbAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ADAF511D0671BE0028C968 /* HorbAppTests.m */; };
+		10ADAF5D1D0671BE0028C968 /* HorbAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ADAF5C1D0671BE0028C968 /* HorbAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10ADAF4E1D0671BE0028C968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10ADAF2C1D0671BE0028C968 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10ADAF331D0671BE0028C968;
+			remoteInfo = HorbApp;
+		};
+		10ADAF591D0671BE0028C968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10ADAF2C1D0671BE0028C968 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10ADAF331D0671BE0028C968;
+			remoteInfo = HorbApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10ADAF341D0671BE0028C968 /* HorbApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorbApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ADAF381D0671BE0028C968 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10ADAF3A1D0671BE0028C968 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10ADAF3B1D0671BE0028C968 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10ADAF3D1D0671BE0028C968 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10ADAF3E1D0671BE0028C968 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10ADAF411D0671BE0028C968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10ADAF431D0671BE0028C968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10ADAF461D0671BE0028C968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10ADAF481D0671BE0028C968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10ADAF4D1D0671BE0028C968 /* HorbAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorbAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ADAF511D0671BE0028C968 /* HorbAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorbAppTests.m; sourceTree = "<group>"; };
+		10ADAF531D0671BE0028C968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10ADAF581D0671BE0028C968 /* HorbAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorbAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ADAF5C1D0671BE0028C968 /* HorbAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorbAppUITests.m; sourceTree = "<group>"; };
+		10ADAF5E1D0671BE0028C968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10ADAF311D0671BE0028C968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ADAF4A1D0671BE0028C968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ADAF551D0671BE0028C968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10ADAF2B1D0671BE0028C968 = {
+			isa = PBXGroup;
+			children = (
+				10ADAF361D0671BE0028C968 /* HorbApp */,
+				10ADAF501D0671BE0028C968 /* HorbAppTests */,
+				10ADAF5B1D0671BE0028C968 /* HorbAppUITests */,
+				10ADAF351D0671BE0028C968 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10ADAF351D0671BE0028C968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10ADAF341D0671BE0028C968 /* HorbApp.app */,
+				10ADAF4D1D0671BE0028C968 /* HorbAppTests.xctest */,
+				10ADAF581D0671BE0028C968 /* HorbAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10ADAF361D0671BE0028C968 /* HorbApp */ = {
+			isa = PBXGroup;
+			children = (
+				10ADAF3A1D0671BE0028C968 /* AppDelegate.h */,
+				10ADAF3B1D0671BE0028C968 /* AppDelegate.m */,
+				10ADAF3D1D0671BE0028C968 /* ViewController.h */,
+				10ADAF3E1D0671BE0028C968 /* ViewController.m */,
+				10ADAF401D0671BE0028C968 /* Main.storyboard */,
+				10ADAF431D0671BE0028C968 /* Assets.xcassets */,
+				10ADAF451D0671BE0028C968 /* LaunchScreen.storyboard */,
+				10ADAF481D0671BE0028C968 /* Info.plist */,
+				10ADAF371D0671BE0028C968 /* Supporting Files */,
+			);
+			path = HorbApp;
+			sourceTree = "<group>";
+		};
+		10ADAF371D0671BE0028C968 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10ADAF381D0671BE0028C968 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10ADAF501D0671BE0028C968 /* HorbAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				10ADAF511D0671BE0028C968 /* HorbAppTests.m */,
+				10ADAF531D0671BE0028C968 /* Info.plist */,
+			);
+			path = HorbAppTests;
+			sourceTree = "<group>";
+		};
+		10ADAF5B1D0671BE0028C968 /* HorbAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10ADAF5C1D0671BE0028C968 /* HorbAppUITests.m */,
+				10ADAF5E1D0671BE0028C968 /* Info.plist */,
+			);
+			path = HorbAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10ADAF331D0671BE0028C968 /* HorbApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10ADAF611D0671BE0028C968 /* Build configuration list for PBXNativeTarget "HorbApp" */;
+			buildPhases = (
+				10ADAF301D0671BE0028C968 /* Sources */,
+				10ADAF311D0671BE0028C968 /* Frameworks */,
+				10ADAF321D0671BE0028C968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorbApp;
+			productName = HorbApp;
+			productReference = 10ADAF341D0671BE0028C968 /* HorbApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10ADAF4C1D0671BE0028C968 /* HorbAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10ADAF641D0671BE0028C968 /* Build configuration list for PBXNativeTarget "HorbAppTests" */;
+			buildPhases = (
+				10ADAF491D0671BE0028C968 /* Sources */,
+				10ADAF4A1D0671BE0028C968 /* Frameworks */,
+				10ADAF4B1D0671BE0028C968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10ADAF4F1D0671BE0028C968 /* PBXTargetDependency */,
+			);
+			name = HorbAppTests;
+			productName = HorbAppTests;
+			productReference = 10ADAF4D1D0671BE0028C968 /* HorbAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10ADAF571D0671BE0028C968 /* HorbAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10ADAF671D0671BE0028C968 /* Build configuration list for PBXNativeTarget "HorbAppUITests" */;
+			buildPhases = (
+				10ADAF541D0671BE0028C968 /* Sources */,
+				10ADAF551D0671BE0028C968 /* Frameworks */,
+				10ADAF561D0671BE0028C968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10ADAF5A1D0671BE0028C968 /* PBXTargetDependency */,
+			);
+			name = HorbAppUITests;
+			productName = HorbAppUITests;
+			productReference = 10ADAF581D0671BE0028C968 /* HorbAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10ADAF2C1D0671BE0028C968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Thitipong Sriwatthanatakul";
+				TargetAttributes = {
+					10ADAF331D0671BE0028C968 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					10ADAF4C1D0671BE0028C968 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 10ADAF331D0671BE0028C968;
+					};
+					10ADAF571D0671BE0028C968 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 10ADAF331D0671BE0028C968;
+					};
+				};
+			};
+			buildConfigurationList = 10ADAF2F1D0671BE0028C968 /* Build configuration list for PBXProject "HorbApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10ADAF2B1D0671BE0028C968;
+			productRefGroup = 10ADAF351D0671BE0028C968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10ADAF331D0671BE0028C968 /* HorbApp */,
+				10ADAF4C1D0671BE0028C968 /* HorbAppTests */,
+				10ADAF571D0671BE0028C968 /* HorbAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10ADAF321D0671BE0028C968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ADAF471D0671BE0028C968 /* LaunchScreen.storyboard in Resources */,
+				10ADAF441D0671BE0028C968 /* Assets.xcassets in Resources */,
+				10ADAF421D0671BE0028C968 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ADAF4B1D0671BE0028C968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ADAF561D0671BE0028C968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10ADAF301D0671BE0028C968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ADAF3F1D0671BE0028C968 /* ViewController.m in Sources */,
+				10ADAF3C1D0671BE0028C968 /* AppDelegate.m in Sources */,
+				10ADAF391D0671BE0028C968 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ADAF491D0671BE0028C968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ADAF521D0671BE0028C968 /* HorbAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ADAF541D0671BE0028C968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ADAF5D1D0671BE0028C968 /* HorbAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10ADAF4F1D0671BE0028C968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10ADAF331D0671BE0028C968 /* HorbApp */;
+			targetProxy = 10ADAF4E1D0671BE0028C968 /* PBXContainerItemProxy */;
+		};
+		10ADAF5A1D0671BE0028C968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10ADAF331D0671BE0028C968 /* HorbApp */;
+			targetProxy = 10ADAF591D0671BE0028C968 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10ADAF401D0671BE0028C968 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10ADAF411D0671BE0028C968 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10ADAF451D0671BE0028C968 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10ADAF461D0671BE0028C968 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10ADAF5F1D0671BE0028C968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10ADAF601D0671BE0028C968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10ADAF621D0671BE0028C968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HorbApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Arthurtecher.HorbApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10ADAF631D0671BE0028C968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HorbApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Arthurtecher.HorbApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10ADAF651D0671BE0028C968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HorbAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Arthurtecher.HorbAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorbApp.app/HorbApp";
+			};
+			name = Debug;
+		};
+		10ADAF661D0671BE0028C968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HorbAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Arthurtecher.HorbAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorbApp.app/HorbApp";
+			};
+			name = Release;
+		};
+		10ADAF681D0671BE0028C968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HorbAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Arthurtecher.HorbAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HorbApp;
+			};
+			name = Debug;
+		};
+		10ADAF691D0671BE0028C968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HorbAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Arthurtecher.HorbAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HorbApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10ADAF2F1D0671BE0028C968 /* Build configuration list for PBXProject "HorbApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ADAF5F1D0671BE0028C968 /* Debug */,
+				10ADAF601D0671BE0028C968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10ADAF611D0671BE0028C968 /* Build configuration list for PBXNativeTarget "HorbApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ADAF621D0671BE0028C968 /* Debug */,
+				10ADAF631D0671BE0028C968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10ADAF641D0671BE0028C968 /* Build configuration list for PBXNativeTarget "HorbAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ADAF651D0671BE0028C968 /* Debug */,
+				10ADAF661D0671BE0028C968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10ADAF671D0671BE0028C968 /* Build configuration list for PBXNativeTarget "HorbAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ADAF681D0671BE0028C968 /* Debug */,
+				10ADAF691D0671BE0028C968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10ADAF2C1D0671BE0028C968 /* Project object */;
+}
